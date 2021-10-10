@@ -191,5 +191,16 @@ body {
 	left: 0;
 }
 
-.popup__text {
+@media (max-width: 767px) {
+	.popup__text {
+		max-width: 300px;
+	}
+
+	.popup__title {
+		font-size: 32px;
+	}
+
+	.img {
+		max-width: 310px;
+	}
 }

@@ -111,17 +111,20 @@ body {
 
 .link {
 	display: block;
+	background: linear-gradient(270deg, #11aeeb, #35f39d);
+	-webkit-box-shadow: -6px 12px 35px 5px rgba(34, 60, 80, 0.23);
+	-moz-box-shadow: -6px 12px 35px 5px rgba(34, 60, 80, 0.23);
+	box-shadow: -6px 12px 35px 5px rgba(34, 60, 80, 0.23);
 	border-radius: 40%;
 	padding: 10px;
 	margin: 5px;
-	border: 2px solid black;
+
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 .link:hover {
-	color: white;
-	background-color: red;
+	color: black;
 }
 
 .popup {
@@ -181,6 +184,10 @@ body {
 	text-align: center;
 	margin: 0 0 1em 0;
 	font-family: "arial";
+}
+
+.img {
+	max-width: 800px;
 }
 
 .popup__area {
